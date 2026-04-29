@@ -74,8 +74,15 @@ export const TermsAndConditions = () => {
 
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">5. Modifications to Terms</h2>
-              <p className="text-slate-600">
+              <p className="text-slate-600 mb-8">
                 We reserve the right to modify these terms at any time. Your continued use of the platform after changes are posted constitutes your acceptance of the new terms.
+              </p>
+            </section>
+
+            <section className="mb-10">
+              <h2 className="text-2xl font-bold text-slate-900 mb-4">6. Contact Information</h2>
+              <p className="text-slate-600">
+                If you have any questions regarding these Terms or our services, please contact us at hello@manmitra.com.
               </p>
             </section>
           </div>

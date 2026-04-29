@@ -1,6 +1,6 @@
 import React from 'react';
 import { Logo } from './Logo';
-import { Instagram, Send as TelegramIcon, BookOpen, Heart } from 'lucide-react';
+import { Instagram, Mail, Send as TelegramIcon, BookOpen, Heart } from 'lucide-react';
 
 export const Footer = ({ onNavClick }: { onNavClick: (page: string) => void }) => {
   return (
@@ -15,6 +15,9 @@ export const Footer = ({ onNavClick }: { onNavClick: (page: string) => void }) =
               have to face their struggles alone.
             </p>
             <div className="flex items-center gap-4">
+              <a href="mailto:hello@manmitra.com" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-manmitra-teal transition-colors" title="Email Us">
+                <Mail className="w-5 h-5" />
+              </a>
               <a href="https://www.instagram.com/_manmitra/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-manmitra-teal transition-colors">
                 <Instagram className="w-5 h-5" />
               </a>

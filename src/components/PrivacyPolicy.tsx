@@ -73,14 +73,14 @@ export const PrivacyPolicy = () => {
                 <FileText className="w-5 h-5 text-manmitra-teal" /> 4. Your Rights
               </h2>
               <p className="text-slate-600 mb-4">
-                You have the right to access, correct, or delete your personal information. You can also object to or restrict certain processing of your data. To exercise these rights, please contact us at support@manmitra.com.
+                You have the right to access, correct, or delete your personal information. You can also object to or restrict certain processing of your data. To exercise these rights, please contact us at hello@manmitra.com.
               </p>
             </section>
 
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">5. Contact Us</h2>
               <p className="text-slate-600">
-                If you have any questions about this Privacy Policy or our data practices, please reach out to our Data Protection Officer at privacy@manmitra.com.
+                If you have any questions about this Privacy Policy or our data practices, please reach out to us at hello@manmitra.com.
               </p>
             </section>
           </div>

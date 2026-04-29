@@ -5,7 +5,7 @@ import { Heart, Sparkles, ShieldCheck } from 'lucide-react';
 
 export const Hero = ({ onCtaClick, onLearnMoreClick }: { onCtaClick: () => void, onLearnMoreClick: () => void }) => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[66px]">
       {/* Hero Banner Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -22,16 +22,7 @@ export const Hero = ({ onCtaClick, onLearnMoreClick }: { onCtaClick: () => void,
       <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-manmitra-yellow/10 rounded-full blur-3xl animate-pulse delay-700" />
       
       <div className="container mx-auto px-6 relative z-10 text-center">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="inline-flex items-center gap-2 px-6 py-2 rounded-full bg-manmitra-teal-light text-manmitra-teal text-sm font-bold mb-8 shadow-sm border border-manmitra-teal/20"
-        >
-          <Sparkles className="w-4 h-4" />
-          <span>Your Safe Space for Mental Wellness</span>
-        </motion.div>
-        
+
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

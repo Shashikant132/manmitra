@@ -26,13 +26,13 @@
           "type": "string",
           "description": "User's Telegram ID"
         },
-        "reason": {
+        "service": {
           "type": "string",
-          "description": "Reason for reaching out"
+          "description": "Selected service"
         },
-        "contactMe": {
-          "type": "boolean",
-          "description": "Whether the user wants to be contacted"
+        "message": {
+          "type": "string",
+          "description": "Optional message from the user"
         },
         "createdAt": {
           "type": "string",
@@ -40,7 +40,7 @@
           "description": "Timestamp of submission"
         }
       },
-      "required": ["name", "email", "reason", "createdAt"]
+      "required": ["name", "email", "service", "createdAt"]
     }
   },
   "firestore": {
